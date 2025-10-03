@@ -20,7 +20,7 @@ A modern, professional news website that aggregates headlines from around the wo
 
 ### Mobile View
 
-<div align="center" height="120em">
+<div align="center" height="20em">
    
    ![image](https://github.com/MdSaifAli063/Daily-News-Website/blob/7c20edbb138b2404a00458ef89ff889aa11f0eb0/Screenshot%202025-10-04%20010457_edited.png)
    
