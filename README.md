@@ -1,10 +1,15 @@
 # 📰 Daily News - Professional News Aggregator
 
+<div align="center">
+
 A modern, professional news website that aggregates headlines from around the world with advanced filtering, search capabilities, and a beautiful responsive UI.
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Now-green?style=for-the-badge&logo=vercel)](https://daily-news-demo.vercel.app) [![Preview](https://img.shields.io/badge/📱_Preview-Screenshots-blue?style=for-the-badge&logo=github)](https://github.com/your-username/daily-news#-preview)
 
 ![Daily News](https://img.shields.io/badge/Node.js-18+-green) ![NewsAPI](https://img.shields.io/badge/Powered%20by-NewsAPI-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+   
+</div>
 
 ## 📱 Preview
 
