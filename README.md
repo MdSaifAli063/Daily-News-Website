@@ -14,7 +14,7 @@ A modern, professional news website that aggregates headlines from around the wo
 ## 📱 Preview
 
 ### Desktop View
-![Desktop Preview](https://via.placeholder.com/800x500/1e293b/ffffff?text=Desktop+News+Interface)
+![image](https://github.com/MdSaifAli063/Daily-News-Website/blob/780c60859b56367b46ad2fee30e0339cde38c6b0/Screenshot%202025-10-04%20005848_edited.png)
 
 ### Mobile View
 ![Mobile Preview](https://via.placeholder.com/400x700/1e293b/ffffff?text=Mobile+News+App)
