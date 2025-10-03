@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daily News - Stay Informed</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="brand">
+          <span class="brand-icon">📰</span>
+          <span class="brand-text"><span class="brand-accent">Daily</span> News</span>
+        </div>
+        <nav class="nav">
+          <a id="navTop" href="#" class="nav-link active">Top</a>
+          <a id="navTrending" href="#" class="nav-link">Trending</a>
+          <a id="navWorld" href="#" class="nav-link">World</a>
+          <a id="navTech" href="#" class="nav-link">Tech</a>
+          <a id="navBusiness" href="#" class="nav-link">Business</a>
+        </nav>
+        <div class="header-actions">
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+            <span class="theme-icon">🌙</span>
+          </button>
+          <button id="refreshBtn" class="refresh-btn" aria-label="Refresh news">
+            <span class="refresh-icon">🔄</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <header class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Stay Informed with <span class="gradient-text">Global News</span></h1>
+          <p class="hero-subtitle">Get the latest headlines from around the world, curated and updated in real-time</p>
+          
+          <div class="search-section">
+            <div class="search-bar">
+              <input id="search" type="search" placeholder="Search for news, topics, or keywords..." class="search-input" />
+              <button id="searchBtn" class="search-btn">
+                <span class="search-icon">🔍</span>
+                Search
+              </button>
+            </div>
+            
+            <div class="filters">
+              <div class="filter-group">
+                <label for="country">Country</label>
+                <select id="country" class="filter-select">
+                  <option value="all">🌍 All Countries</option>
+                  <option value="us">🇺🇸 United States</option>
+                  <option value="gb">🇬🇧 United Kingdom</option>
+                  <option value="in">🇮🇳 India</option>
+                  <option value="au">🇦🇺 Australia</option>
+                  <option value="ca">🇨🇦 Canada</option>
+                  <option value="de">🇩🇪 Germany</option>
+                  <option value="fr">🇫🇷 France</option>
+                  <option value="it">🇮🇹 Italy</option>
+                  <option value="jp">🇯🇵 Japan</option>
+                  <option value="ru">🇷🇺 Russia</option>
+                  <option value="sa">🇸🇦 Saudi Arabia</option>
+                  <option value="za">🇿🇦 South Africa</option>
+                </select>
+              </div>
+              
+              <div class="filter-group">
+                <label for="category">Category</label>
+                <select id="category" class="filter-select">
+                  <option value="">📰 All Categories</option>
+                  <option value="business">💼 Business</option>
+                  <option value="entertainment">🎬 Entertainment</option>
+                  <option value="general">📰 General</option>
+                  <option value="health">🏥 Health</option>
+                  <option value="science">🔬 Science</option>
+                  <option value="sports">⚽ Sports</option>
+                  <option value="technology">💻 Technology</option>
+                </select>
+              </div>
+              
+              <div class="filter-group">
+                <label for="sortBy">Sort By</label>
+                <select id="sortBy" class="filter-select">
+                  <option value="publishedAt">📅 Latest</option>
+                  <option value="relevancy">⭐ Most Relevant</option>
+                  <option value="popularity">🔥 Most Popular</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <div class="trending-topics">
+            <span class="trending-label">🔥 Trending:</span>
+            <div class="topic-tags">
+              <button class="topic-tag" data-topic="AI">AI</button>
+              <button class="topic-tag" data-topic="Climate">Climate</button>
+              <button class="topic-tag" data-topic="Economy">Economy</button>
+              <button class="topic-tag" data-topic="Politics">Politics</button>
+              <button class="topic-tag" data-topic="Sports">Sports</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <div id="status" class="status"></div>
+        
+        <div class="content-header">
+          <h2 id="sectionTitle" class="section-title">Top Headlines</h2>
+          <div class="view-controls">
+            <button id="gridView" class="view-btn active" aria-label="Grid view">⊞</button>
+            <button id="listView" class="view-btn" aria-label="List view">☰</button>
+          </div>
+        </div>
+        
+        <section id="articles" class="articles-grid"></section>
+        
+        <div class="pagination-wrapper">
+          <div class="pagination">
+            <button id="prev" class="pagination-btn" disabled>
+              <span>←</span> Previous
+            </button>
+            <div class="pagination-info">
+              <span id="page">1</span>
+              <span class="pagination-separator">of</span>
+              <span id="totalPages">1</span>
+            </div>
+            <button id="next" class="pagination-btn">
+              Next <span>→</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <span class="brand-icon">📰</span>
+              <span class="brand-text"><span class="brand-accent">Daily</span> News</span>
+            </div>
+            <p class="footer-desc">Your trusted source for global news and information</p>
+          </div>
+          
+          <div class="footer-links">
+            <div class="footer-section">
+              <h4>News</h4>
+              <a href="#">Top Stories</a>
+              <a href="#">World News</a>
+              <a href="#">Technology</a>
+              <a href="#">Business</a>
+            </div>
+            <div class="footer-section">
+              <h4>About</h4>
+              <a href="#">About Us</a>
+              <a href="#">Contact</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+            </div>
+            <div class="footer-section">
+              <h4>Powered By</h4>
+              <a href="https://newsapi.org" target="_blank" rel="noopener">NewsAPI</a>
+              <a href="#">API Documentation</a>
+              <a href="#">Developer Resources</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Daily News. All rights reserved.</p>
+          <p class="footer-note">Data provided by NewsAPI • Updated every hour</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/main.js" type="module"></script>
+  </body>
+</html>
