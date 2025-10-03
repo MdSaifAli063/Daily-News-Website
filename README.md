@@ -20,15 +20,8 @@ A modern, professional news website that aggregates headlines from around the wo
 
 ### Mobile View
 
-![image](https://github.com/MdSaifAli063/Daily-News-Website/blob/7c20edbb138b2404a00458ef89ff889aa11f0eb0/Screenshot%202025-10-04%20010457_edited.png)
+<imag  src="https://github.com/MdSaifAli063/Daily-News-Website/blob/7c20edbb138b2404a00458ef89ff889aa11f0eb0/Screenshot%202025-10-04%20010457_edited.png">
 
-### Dark Theme
-![Dark Theme](https://via.placeholder.com/800x500/0f172a/ffffff?text=Dark+Theme+Interface)
-
-### Light Theme
-![Light Theme](https://via.placeholder.com/800x500/ffffff/1e293b?text=Light+Theme+Interface)
-
-> **Note**: Replace placeholder images with actual screenshots of your deployed application
 
 ## 🚀 Quick Demo
 
