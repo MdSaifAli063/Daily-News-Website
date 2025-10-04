@@ -342,15 +342,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-
-
-## 🔗 Demo Links Setup
-
-### Create Demo Links
-1. **Vercel Demo**: Deploy to Vercel and get `https://your-app.vercel.app`
-2. **Netlify Demo**: Deploy to Netlify and get `https://your-app.netlify.app`
-3. **Heroku Demo**: Deploy to Heroku and get `https://your-app.herokuapp.com`
-
 ### Update Badge Links
 Replace the placeholder URLs in the badges:
 ```markdown
