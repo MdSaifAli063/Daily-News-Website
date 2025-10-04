@@ -339,9 +339,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Express.js** for the server framework
 - **Modern CSS** for responsive design
 
-## 📸 Creating Screenshots
-
-To replace the placeholder images with actual screenshots:
 
 ### Desktop Screenshots
 1. **Open your deployed app** in a desktop browser
