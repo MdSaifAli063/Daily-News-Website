@@ -343,10 +343,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-### Upload Screenshots
-1. **Upload to GitHub**: Add images to `/docs/screenshots/` folder
-2. **Use GitHub URLs**: `https://raw.githubusercontent.com/your-username/daily-news/main/docs/screenshots/desktop.png`
-3. **Update README**: Replace placeholder URLs with actual image URLs
 
 ## 🔗 Demo Links Setup
 
