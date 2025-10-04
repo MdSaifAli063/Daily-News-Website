@@ -341,14 +341,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-### Mobile Screenshots
-1. **Open in mobile browser** or use browser dev tools
-2. **Take screenshots** of:
-   - Mobile grid view
-   - Mobile list view
-   - Mobile navigation
-   - Mobile search interface
-3. **Recommended size**: 375x667px (iPhone) or 414x896px
+
 
 ### Upload Screenshots
 1. **Upload to GitHub**: Add images to `/docs/screenshots/` folder
