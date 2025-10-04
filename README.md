@@ -340,14 +340,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Modern CSS** for responsive design
 
 
-### Desktop Screenshots
-1. **Open your deployed app** in a desktop browser
-2. **Take screenshots** of:
-   - Main interface with news cards
-   - Search functionality
-   - Different categories (Tech, Business, etc.)
-   - Dark/Light theme toggle
-3. **Recommended size**: 1200x800px or 1600x900px
 
 ### Mobile Screenshots
 1. **Open in mobile browser** or use browser dev tools
