@@ -33,8 +33,7 @@ A modern, professional news website that aggregates headlines from around the wo
 ### Live Demo Links
 - **🌐 Production Demo**: [https://daily-news-demo.vercel.app](https://daily-news-demo.vercel.app)
 - **🔧 Development Demo**: [https://daily-news-dev.netlify.app](https://daily-news-dev.netlify.app)
-- **📱 Mobile Demo**: [https://daily-news-mobile.herokuapp.com](https://daily-news-mobile.herokuapp.com)
-
+  
 ### Demo Features to Try
 1. **🌍 All Countries**: Switch to "All Countries" to see global news aggregation
 2. **🔍 Search**: Try searching for "AI", "Climate", or "Technology"
