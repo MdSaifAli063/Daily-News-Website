@@ -339,15 +339,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Express.js** for the server framework
 - **Modern CSS** for responsive design
 
-
-
-### Test Demo Links
-- ✅ **All Countries**: Should show aggregated news
-- ✅ **Search**: Should work with keywords
-- ✅ **Themes**: Light/Dark toggle should work
-- ✅ **Mobile**: Should be responsive
-- ✅ **Navigation**: All nav links should work
-
 ## 📞 Support
 
 If you have any questions or need help:
