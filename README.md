@@ -341,13 +341,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-
-### Update Badge Links
-Replace the placeholder URLs in the badges:
-```markdown
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Now-green?style=for-the-badge&logo=vercel)](https://your-actual-demo.vercel.app)
-```
-
 ### Test Demo Links
 - ✅ **All Countries**: Should show aggregated news
 - ✅ **Search**: Should work with keywords
