@@ -348,5 +348,6 @@ If you have any questions or need help:
 3. Contact the maintainers
 
 ---
-
+<p align="center">
 **Made with ❤️ for staying informed with global news**
+</p>
