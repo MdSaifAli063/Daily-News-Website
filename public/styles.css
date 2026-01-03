@@ -1,6 +1,4 @@
-/* Modern News Website Styles */
 :root {
-  /* Light Theme */
   --bg-primary: #ffffff;
   --bg-secondary: #f8fafc;
   --bg-tertiary: #f1f5f9;
@@ -23,7 +21,6 @@
   --radius-lg: 12px;
   --radius-xl: 16px;
 
-  /* Hero background defaults */
   --hero-bg-image: url('/assets/hero.jpg');
   --hero-bg-position: center center;
   --hero-bg-size: contain;
@@ -71,7 +68,6 @@ body {
   padding: 0 20px;
 }
 
-/* Header */
 .topbar {
   background: var(--bg-primary);
   border-bottom: 1px solid var(--border-light);
