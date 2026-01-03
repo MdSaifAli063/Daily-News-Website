@@ -2,13 +2,13 @@
 const state = {
   page: 1,
   pageSize: 20,
-  country: 'us',
+  country: 'all', // changed: default to "all" so server aggregates top headlines across countries
   category: '',
   q: '',
   mode: 'top',
   sortBy: 'publishedAt',
-  viewMode: 'grid',
-  theme: 'light'
+  viewMode: 'grid'
+  // removed theme state and theme-related handling
 };
 
 const elements = {
@@ -38,7 +38,6 @@ const elements = {
   totalPages: document.getElementById('totalPages'),
   
   // Controls
-  themeToggle: document.getElementById('themeToggle'),
   refreshBtn: document.getElementById('refreshBtn'),
   gridView: document.getElementById('gridView'),
   listView: document.getElementById('listView'),
@@ -46,27 +45,6 @@ const elements = {
   // Topic tags
   topicTags: document.querySelectorAll('.topic-tag')
 };
-
-// Theme management
-function initTheme() {
-  const savedTheme = localStorage.getItem('theme') || 'light';
-  setTheme(savedTheme);
-}
-
-function setTheme(theme) {
-  state.theme = theme;
-  document.documentElement.setAttribute('data-theme', theme);
-  localStorage.setItem('theme', theme);
-  
-  const themeIcon = elements.themeToggle?.querySelector('.theme-icon');
-  if (themeIcon) {
-    themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
-  }
-}
-
-function toggleTheme() {
-  setTheme(state.theme === 'light' ? 'dark' : 'light');
-}
 
 // Status management
 function setStatus(message, isError = false) {
@@ -368,8 +346,6 @@ function setupEventListeners() {
   });
   
   // Controls
-  elements.themeToggle?.addEventListener('click', toggleTheme);
-  
   elements.refreshBtn?.addEventListener('click', () => {
     fetchNews();
   });
@@ -405,7 +381,6 @@ function setupEventListeners() {
 
 // Initialize app
 function initApp() {
-  initTheme();
   setupEventListeners();
   updateSectionTitle();
   
