@@ -138,6 +138,7 @@ A modern, professional news website that aggregates headlines from around the wo
 - **List View**: Compact list layout
 - **Theme Toggle**: Switch between light and dark themes
 
+
 ## 🛠️ Development
 
 ### Project Structure
