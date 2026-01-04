@@ -41,6 +41,7 @@ A modern, professional news website that aggregates headlines from around the wo
 5. **🏷️ Trending Topics**: Click on trending topic tags
 6. **📊 Different Views**: Toggle between grid and list views
 
+
 ## ✨ Features
 
 ### 🌍 **Global News Coverage**
