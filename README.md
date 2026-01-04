@@ -8,7 +8,6 @@ A modern, professional news website that aggregates headlines from around the wo
 
 ![Daily News](https://img.shields.io/badge/Node.js-18+-green) ![NewsAPI](https://img.shields.io/badge/Powered%20by-NewsAPI-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-   
 </div>
 
 ## 📱 Preview
