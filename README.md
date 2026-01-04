@@ -207,6 +207,7 @@ The app supports light and dark themes with CSS custom properties:
 - **Component Classes**: Modular CSS architecture
 - **Animations**: Smooth transitions and hover effects
 
+
 ## 📱 Browser Support
 
 - **Chrome 90+**
