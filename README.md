@@ -78,6 +78,7 @@ A modern, professional news website that aggregates headlines from around the wo
 - **Error Recovery**: Graceful handling of API failures
 - **Performance**: Optimized for speed and efficiency
 
+
 ## 🚀 Quick Start
 
 ### Prerequisites
