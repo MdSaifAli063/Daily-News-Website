@@ -347,6 +347,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Express.js** for the server framework
 - **Modern CSS** for responsive design
 
+
 ## 📞 Support
 
 If you have any questions or need help:
