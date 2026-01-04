@@ -339,6 +339,7 @@ NEWS_API_KEY=your_newsapi_key_here
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
 ## 🙏 Acknowledgments
 
 - **NewsAPI** for providing the news data
