@@ -13,7 +13,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const NEWS_API_KEY = process.env.NEWS_API_KEY || 'e1d300bcb87a4a6da3db5f41c5e88e7a';
+const NEWS_API_KEY = process.env.NEWS_API_KEY || '';
 
 app.use(cors());
 app.use(compression());
