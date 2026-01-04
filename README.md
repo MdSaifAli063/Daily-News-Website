@@ -116,6 +116,7 @@ A modern, professional news website that aggregates headlines from around the wo
 5. **Open your browser**
    Navigate to `http://localhost:3000`
 
+
 ## 📖 Usage
 
 ### Navigation
