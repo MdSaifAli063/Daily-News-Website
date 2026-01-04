@@ -27,7 +27,6 @@ A modern, professional news website that aggregates headlines from around the wo
 </div>
 
 
-
 ## 🚀 Quick Demo
 
 ### Live Demo Links
