@@ -1,34 +1,39 @@
 # 📰 Daily News - Professional News Aggregator
 
+<div align="center">
+
 A modern, professional news website that aggregates headlines from around the world with advanced filtering, search capabilities, and a beautiful responsive UI.
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Now-green?style=for-the-badge&logo=vercel)](https://daily-news-demo.vercel.app) [![Preview](https://img.shields.io/badge/📱_Preview-Screenshots-blue?style=for-the-badge&logo=github)](https://github.com/your-username/daily-news#-preview)
 
 ![Daily News](https://img.shields.io/badge/Node.js-18+-green) ![NewsAPI](https://img.shields.io/badge/Powered%20by-NewsAPI-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+   
+</div>
+
 ## 📱 Preview
 
 ### Desktop View
-![Desktop Preview](https://via.placeholder.com/800x500/1e293b/ffffff?text=Desktop+News+Interface)
+![image](https://github.com/MdSaifAli063/Daily-News-Website/blob/780c60859b56367b46ad2fee30e0339cde38c6b0/Screenshot%202025-10-04%20005848_edited.png)
+
+![image](https://github.com/MdSaifAli063/Daily-News-Website/blob/af5ca64fa732d62436443d0f7038b19cad80123e/Screenshot%202025-10-04%20010117_edited.png)
 
 ### Mobile View
-![Mobile Preview](https://via.placeholder.com/400x700/1e293b/ffffff?text=Mobile+News+App)
 
-### Dark Theme
-![Dark Theme](https://via.placeholder.com/800x500/0f172a/ffffff?text=Dark+Theme+Interface)
+<div align="center">
+   <img src="https://github.com/MdSaifAli063/Daily-News-Website/blob/7c20edbb138b2404a00458ef89ff889aa11f0eb0/Screenshot%202025-10-04%20010457_edited.png" 
+        alt="image" 
+        style="height:300px; max-width:500px object-fit:contain;" />
+</div>
 
-### Light Theme
-![Light Theme](https://via.placeholder.com/800x500/ffffff/1e293b?text=Light+Theme+Interface)
 
-> **Note**: Replace placeholder images with actual screenshots of your deployed application
 
 ## 🚀 Quick Demo
 
 ### Live Demo Links
 - **🌐 Production Demo**: [https://daily-news-demo.vercel.app](https://daily-news-demo.vercel.app)
 - **🔧 Development Demo**: [https://daily-news-dev.netlify.app](https://daily-news-dev.netlify.app)
-- **📱 Mobile Demo**: [https://daily-news-mobile.herokuapp.com](https://daily-news-mobile.herokuapp.com)
-
+  
 ### Demo Features to Try
 1. **🌍 All Countries**: Switch to "All Countries" to see global news aggregation
 2. **🔍 Search**: Try searching for "AI", "Climate", or "Technology"
@@ -334,53 +339,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Express.js** for the server framework
 - **Modern CSS** for responsive design
 
-## 📸 Creating Screenshots
-
-To replace the placeholder images with actual screenshots:
-
-### Desktop Screenshots
-1. **Open your deployed app** in a desktop browser
-2. **Take screenshots** of:
-   - Main interface with news cards
-   - Search functionality
-   - Different categories (Tech, Business, etc.)
-   - Dark/Light theme toggle
-3. **Recommended size**: 1200x800px or 1600x900px
-
-### Mobile Screenshots
-1. **Open in mobile browser** or use browser dev tools
-2. **Take screenshots** of:
-   - Mobile grid view
-   - Mobile list view
-   - Mobile navigation
-   - Mobile search interface
-3. **Recommended size**: 375x667px (iPhone) or 414x896px
-
-### Upload Screenshots
-1. **Upload to GitHub**: Add images to `/docs/screenshots/` folder
-2. **Use GitHub URLs**: `https://raw.githubusercontent.com/your-username/daily-news/main/docs/screenshots/desktop.png`
-3. **Update README**: Replace placeholder URLs with actual image URLs
-
-## 🔗 Demo Links Setup
-
-### Create Demo Links
-1. **Vercel Demo**: Deploy to Vercel and get `https://your-app.vercel.app`
-2. **Netlify Demo**: Deploy to Netlify and get `https://your-app.netlify.app`
-3. **Heroku Demo**: Deploy to Heroku and get `https://your-app.herokuapp.com`
-
-### Update Badge Links
-Replace the placeholder URLs in the badges:
-```markdown
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Now-green?style=for-the-badge&logo=vercel)](https://your-actual-demo.vercel.app)
-```
-
-### Test Demo Links
-- ✅ **All Countries**: Should show aggregated news
-- ✅ **Search**: Should work with keywords
-- ✅ **Themes**: Light/Dark toggle should work
-- ✅ **Mobile**: Should be responsive
-- ✅ **Navigation**: All nav links should work
-
 ## 📞 Support
 
 If you have any questions or need help:
@@ -390,5 +348,6 @@ If you have any questions or need help:
 3. Contact the maintainers
 
 ---
-
+<p align="center">
 **Made with ❤️ for staying informed with global news**
+</p>
