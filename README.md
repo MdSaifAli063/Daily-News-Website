@@ -182,6 +182,7 @@ NEWS_API_KEY=your_newsapi_key_here  # NewsAPI key (required)
 - **All Countries**: Aggregates news from multiple countries
 - **Error Handling**: Graceful fallbacks for API failures
 
+
 ## 🎨 Customization
 
 ### Themes
