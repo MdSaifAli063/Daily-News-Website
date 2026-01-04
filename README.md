@@ -215,6 +215,7 @@ The app supports light and dark themes with CSS custom properties:
 - **Safari 14+**
 - **Edge 90+**
 
+
 ## 🔧 Configuration
 
 ### NewsAPI Setup
